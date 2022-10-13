@@ -1,0 +1,114 @@
+{
+    "name": "mapAction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "da4a8934-04fd-4644-8aef-0bd7aeb74fa3",
+            "actions": [
+                {
+                    "name": "Effect1",
+                    "type": "Button",
+                    "id": "fcc6c390-1009-42f7-be11-52ace67565b7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Effect2",
+                    "type": "Button",
+                    "id": "2b8fb5eb-a574-4caa-bd95-188b1520e4aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Effect3",
+                    "type": "Button",
+                    "id": "6835adab-67e7-4dcf-abb4-9a6c96a899b1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Effect4",
+                    "type": "Button",
+                    "id": "a743f783-682f-4655-9544-8df3fca07243",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Effect5",
+                    "type": "Button",
+                    "id": "c0c27ae9-f0c8-4b02-a068-63b164b0af1b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2b55d3da-970b-4d3f-ac40-b4a18cc44107",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Effect1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "249bf71a-d7e7-45a0-b04e-b491db45fd7d",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Effect2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e16abb73-f473-4362-a24a-1deb1363effd",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Effect3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aa96f979-2f98-482a-9674-828ee42c46a9",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Effect4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dba58728-e860-4d93-951e-b66bd4047e9a",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Effect5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
