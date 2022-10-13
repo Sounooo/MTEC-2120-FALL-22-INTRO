@@ -1,0 +1,34 @@
+{
+    "name": "hw2",
+    "maps": [
+        {
+            "name": "player",
+            "id": "7bd3f9cf-73f8-4592-bda0-9ddbf0c5e481",
+            "actions": [
+                {
+                    "name": "fire",
+                    "type": "Value",
+                    "id": "d95bef45-cc69-44d7-93ff-17fae9022390",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3e65cd81-8a0b-44ff-a474-2fffa824903d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
