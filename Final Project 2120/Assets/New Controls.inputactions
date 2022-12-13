@@ -1,0 +1,146 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Sky change",
+            "id": "3b6f16ef-80fc-4d12-a766-821594e6e60a",
+            "actions": [
+                {
+                    "name": "SKY2",
+                    "type": "Button",
+                    "id": "616509de-5652-4516-bdc9-1ebafce654fe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press,Press,MultiTap",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "35bab8bc-03e7-4d0f-8edf-2754d553f80e",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Hold,Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SKY2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "player",
+            "id": "19ebc941-cfb4-4181-9138-8a0c19897abd",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "a2eb2c32-a1b8-4e92-99f5-731979f0b9ff",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "fbee36f7-277b-427b-b694-b921f6ab0f66",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "c08aef33-965a-43f6-ab0c-7747e29d6a43",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "d329638a-a21b-44c5-8e1b-63672ee7d10b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "5325e4f4-07a5-40a2-9816-929e0fc43df9",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "74e6ce8b-791f-481a-991f-a45409c4e7a6",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "239db0ce-5beb-4f9b-a90b-8ccf78dd106e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d8beda02-bc6b-4551-848e-5952fab630d6",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "fc19f672-5099-41e9-a6dd-87733b4d11ac",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "99df686f-e450-4465-bc0e-ecc408630557",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
